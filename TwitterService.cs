@@ -133,8 +133,6 @@ namespace System.Web.Services
 
             if (!_cacheService.Contains(key))
             {
-
-
                 EmbeddedStatusAlignment align = EmbeddedStatusAlignment.Center;
 
                 if (tweets != null)
