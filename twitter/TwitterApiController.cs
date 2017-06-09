@@ -31,7 +31,6 @@ namespace System.Web.Controllers.Api.Twitter
             return Request.CreateResponse(HttpStatusCode.OK, response);
         }
 
-
         [Route("{handle}")]
         [Route("{handle}/{pgIndex:int}")]
         [Route("{handle}/{pgIndex:int}/{pgSize:int}")]
